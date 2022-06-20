@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Fizzy-Fever</title>
@@ -5,16 +6,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="">
-  <div id="title" class="">Fizzy-Pop</div>
+  <div id="title" class="">-</div>
   <div class="container">
-    <div class="superman dive left"></div>
-    <div id="fizzy_box" class=""></div>
-    <div class="superman dive right"></div>
+    <div id="up" class="superman dive left"></div>
+    <div id="fizzy_box" class="">
+
+    </div>
+    <div id="down" class="superman dive right"></div>
   </div>
   <div id="bottom">
     <span><a href="https://github.com/enginma9" target="blank" class="glow" rel="noopener noreferrer">enginma9</a></span>
-    <span>&#128406;</span><span><a href="https://www.theodinproject.com/" target="blank" class="glow" rel="noopener noreferrer">The Odin Project</a></span>
+    <span id="sperk">&#128406;</span><span><a href="https://www.theodinproject.com/" target="blank" class="glow" rel="noopener noreferrer">The Odin Project</a></span>
   </div>
+
+  <div id="popup">
+    <form>
+      <span><input type="checkbox" id="neon" class="toggle" />
+      <label for="neon" class="popup-label">Neon</label></span>
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      <div id="letsGo">Let's Go!</div>
+    </form>
+  </div>
+
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
